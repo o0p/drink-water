@@ -50,6 +50,14 @@ h3 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 0.3125rem;
+    margin: 0.3125rem;
     transition: 0.3s ease;
+}
+
+.cups {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    width: 280px;
 }
