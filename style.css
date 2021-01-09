@@ -82,3 +82,18 @@ h3 {
     font-size: 1.25rem;
     font-weight: bold;
 }
+
+.remained small {
+    font-size: 0.75rem;
+}
+
+.percentage {
+    background-color: var(--fill-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.875rem;
+    height: 0;
+    transition: 0.3s ease;
+}
