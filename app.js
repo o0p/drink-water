@@ -8,7 +8,10 @@ smallCups.forEach(function(cup, i) {
 });
 
 function highlightCups(i) {
-
+    if (smallCups[i].classList.contains('full') 
+    && !smallCups[i].nextElementSibling.classList.contains('full')) {
+        i = i - 1;
+    }
     smallCups.forEach(function(cup, i2){
         if (i2 <= i) {
             cup.classList.add('full');
