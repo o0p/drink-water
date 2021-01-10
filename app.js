@@ -43,6 +43,6 @@ function updateBigCup() {
     } else {
         remained.style.visibility = 'visible';
         remained.style.height = 1;
-        l.innerText = `${250 * fullCups / 1000}L`
+        l.innerText = `${2 - (250 * fullCups / 1000)}L`
     }
 }
